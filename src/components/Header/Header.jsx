@@ -15,7 +15,7 @@ const Header = () => {
 <h5 className="text-light">
 <Typewriter
   options={{
-    strings: ['Data Analyst', 'Skilled management expert,'],
+    strings: ['Data Analyst', 'Skilled management expert'],
     autoStart: true,
     delay: 75,
     loop: true,

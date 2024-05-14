@@ -11,42 +11,42 @@ const Portfolio = () => {
     {
       id:1,
       image:IMG1,
-      title:'Trend Analysis of Attacks Over the Years'
+      title:'Trend Analysis '
      
      
     },
     {
       id:2,
       image:IMG2,
-      title:'Cluster-wise Comparison of Total Attacks',
+      title:'Cluster-wise Comparison ',
       
       
     },
     {
       id:3,
       image:IMG3,
-      title:'Distribution of Attack Counts Across Clusters',
+      title:'Box Plot',
   
       
     },
     {
       id:4,
       image:IMG4,
-      title:'Scatter Plot with Trend Line',
+      title:'Co-relation',
 
     
     },
     {
       id:5,
       image:IMG5,
-      title:'Distribution of Total Attack Counts Across Clusters',
+      title:'Distribution of Clusters (PC)',
      
   
     },
     {
       id:6,
       image:IMG6,
-      title:'Density Plot: Distribution of Attack Counts in 2022',
+      title:'Density Plot',
 
     }
   ]

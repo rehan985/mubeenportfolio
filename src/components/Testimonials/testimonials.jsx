@@ -20,6 +20,7 @@ const data=[
 avatar:img1,
 name:'Dr. Mohsin Kamal',
 information: 'Associate Professor',
+dest : 'NUST Isb',
 review:'I am thoroughly impressed with the exceptional work you have done on the data analytics project, I have given you. Your ability to analyze, and interpret complex data sets is truly outstanding. Your findings and insights are insightful and actionable, demonstrating a mastery of data analytics techniques. Your dedication to extracting meaningful patterns and trends from data is commendable. Keep up the fantastic work!'
 
   },
@@ -44,7 +45,9 @@ const Testimonials = () => {
             <img src={item.avatar} alt="Avatar One" />
           </div>
             <h5 className='client_name'>{item.name}</h5>
+            <h6 className='client_name'>{item.dest}</h6>
             <h6 className='client_name'>{item.information}</h6>
+            
             <small className='client_review'><p>{item.review}</p></small>
           </SwiperSlide>
           )  })
