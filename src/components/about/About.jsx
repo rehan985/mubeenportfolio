@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import img from '../../assets/awab2.png'
+import img from '../../assets/mobeen.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {TbFolder} from 'react-icons/tb'
@@ -20,7 +20,7 @@ const About = () => {
           <article className='about_card'>
 <FiUsers className='about_icon'/>
 <h5>Experience</h5>
-<small>3+ Years working</small>
+<small>6+ Years working</small>
           </article>
 
           <article className='about_card'>
@@ -32,11 +32,16 @@ const About = () => {
           <article className='about_card'>
 <TbFolder className='about_icon'/>
 <h5>Projects</h5>
-<small>80+ Completed</small>
+<small>90+ Completed</small>
           </article>
         </div>
-        <p>Hey, I'm Awab
-Full Stack Web Developer From Pakistan. I created custom websites to help business do better online.</p>
+        <p>Skilled management expert, business analysis professional and data analyst
+with more than seven years of industry experience .Energetic presenter and
+confident communicator with the ability to circulate information in a way that
+is clear, efficient, and beneficial for end users. Creative in finding solutions to
+problems and determining modifications for optimal use of organizational
+data. Expert at providing realistic projections and establishing various
+scenarios to determine viable process strategies to utilize.</p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
     </div>

@@ -1,54 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio7.jpg'
-import IMG2 from '../../assets/portfolio3.jpg'
-import IMG3 from '../../assets/portfolio2.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio6.jpg'
-import IMG6 from '../../assets/portfolio5.jpg'
+import IMG1 from '../../assets/pic1.png'
+import IMG2 from '../../assets/pic2.png'
+import IMG3 from '../../assets/pic3.png'
+import IMG4 from '../../assets/pic4.jpg'
+import IMG5 from '../../assets/pic5.jpg'
+import IMG6 from '../../assets/pic6.jpg'
 const Portfolio = () => {
   const data=[
     {
       id:1,
       image:IMG1,
-      title:'Resturant Food Delievery',
-      gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://github.com/Muhammad-Awab/PizzaApplication'
+      title:'Trend Analysis of Attacks Over the Years'
+     
+     
     },
     {
       id:2,
       image:IMG2,
-      title:'Pizza Delievery Website',
-      gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://github.com/Muhammad-Awab/PizzaDelieveryApplication'
+      title:'Cluster-wise Comparison of Total Attacks',
+      
+      
     },
     {
       id:3,
       image:IMG3,
-      title:'Car Showroom Website',
-      gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://github.com/Muhammad-Awab/Car-Show-Room-Website'
+      title:'Distribution of Attack Counts Across Clusters',
+  
+      
     },
     {
       id:4,
       image:IMG4,
-      title:'Todos Item List Website',
-      gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://github.com/Muhammad-Awab/WeatherAPP_Using_API_TODOAPP'
+      title:'Scatter Plot with Trend Line',
+
+    
     },
     {
       id:5,
       image:IMG5,
-      title:'Live Country Weather Website',
-      gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://github.com/Muhammad-Awab/WeatherAPP_Using_API_TODOAPP'
+      title:'Distribution of Total Attack Counts Across Clusters',
+     
+  
     },
     {
       id:6,
       image:IMG6,
-      title:'Call Center Application',
-      gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://github.com/Muhammad-Awab/CallCenterApplication'
+      title:'Density Plot: Distribution of Attack Counts in 2022',
+
     }
   ]
   return (
@@ -66,8 +65,8 @@ const Portfolio = () => {
                 </div>
                     <h3>{item.title}</h3>
                     <div className="porifolio_item-cta">
-                    <a href={item.gitub} className='btn' target='_blank' rel="noreferrer">Gitub</a>
-                    <a href={item.demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                    
+                    
                     </div>
             </article>
   )})           

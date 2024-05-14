@@ -1,11 +1,19 @@
 .experience_container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns:  1fr;
+     width: 35%;
+    margin: 0 0 0 16vh;
 }
+#experience{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 .experience_container >div{
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding:1.1rem 4.5rem 3rem 4.5rem;
     border: 1px solid transparent;
     transition: var(--transition);
     border-radius: 2rem;

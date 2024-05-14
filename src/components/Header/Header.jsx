@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import img from '../../assets/awab1.png'
+import img from '../../assets/mobeen.png'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect';
 
@@ -10,12 +10,12 @@ const Header = () => {
     <header>
       <div className="container header_container">
 <h5>Hello I'm</h5>
-<h1>Muhammad Awab</h1>
+<h1>Mubeen Jamshed</h1>
 
 <h5 className="text-light">
 <Typewriter
   options={{
-    strings: ['Full stack Developer', 'Devops Engineer'],
+    strings: ['Data Analyst', 'Skilled management expert,'],
     autoStart: true,
     delay: 75,
     loop: true,

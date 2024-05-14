@@ -15,6 +15,9 @@
     border: 0.4rem solid var(--color-primary-variant);
 
 }
+.client_avatar img{
+    width: 3.4rem;
+}
 .testimonial{
     background: var(--color-bg-variant);
     text-align: center;
@@ -26,17 +29,20 @@
 .client_review{
     color: var(--color-light);
     font-weight: 300;
-    display: block;
+    /* display: flex; */
     width: 80%;
     margin: 0.8rem auto 0;
+   
+   
 }
+
 /* ############################## Swiper Js *###################### */
 
 .swiper-pagination-clickable .swiper-pagination-bullet{
     background: var(--color-primary)
 }
 
-/* ############################## Swiper Js *######################*/
+
 
  /*########################### Media Quries (Medium Devices) #########################  */
  @media screen and (max-width:1024px){

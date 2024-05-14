@@ -17,6 +17,10 @@
     transform: rotate(10deg);
 transition: var(--transition);
 }
+.about_me-image img{
+    width: 52vh;
+    margin: 0 0 0 10px;
+}
 .about_me-image:hover{
     transform: rotate(0deg);
 }
