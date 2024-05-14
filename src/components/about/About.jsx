@@ -20,19 +20,19 @@ const About = () => {
           <article className='about_card'>
 <FiUsers className='about_icon'/>
 <h5>Experience</h5>
-<small>6+ Years working</small>
+<small>7+ Years working</small>
           </article>
 
           <article className='about_card'>
 <FaAward className='about_icon'/>
 <h5>Clients</h5>
-<small>200+ World</small>
+<small>20+ World</small>
           </article>
 
           <article className='about_card'>
 <TbFolder className='about_icon'/>
 <h5>Projects</h5>
-<small>90+ Completed</small>
+<small>9+ Completed</small>
           </article>
         </div>
         <p>Skilled management expert, business analysis professional and data analyst
