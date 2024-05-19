@@ -1,19 +1,11 @@
 .experience_container{
     display: grid;
-    grid-template-columns:  1fr;
-     width: 35%;
-    margin: 0 0 0 16vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }
-#experience{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
 .experience_container >div{
     background: var(--color-bg-variant);
-    padding:1.1rem 4.5rem 3rem 4.5rem;
+    padding: 2.4rem 5rem;
     border: 1px solid transparent;
     transition: var(--transition);
     border-radius: 2rem;
@@ -68,6 +60,9 @@ gap: 2rem;
         }
         .experience_container >div{
             width: 100%;
-            padding: 2rem 1rem;
+            padding: 2rem 0rem;
+        }
+        .experience_content{
+           font-size: 0.5px;
         }
     } 

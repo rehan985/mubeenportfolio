@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import img from '../../assets/mobeen.png'
+import img from '../../assets/mobeen2.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {TbFolder} from 'react-icons/tb'

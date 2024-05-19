@@ -1,16 +1,15 @@
-import React from "react";
-import "./Experience.css";
-import { BsFillPatchCheckFill } from "react-icons/bs";
+import React from 'react'
+import './Experience.css'
+import { BsFillPatchCheckFill } from 'react-icons/bs'
 const Experience = () => {
-  return (
-    <section id="experience" style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
-      
-      <div className="d-flex justify-content-center align-items-center experience_container mb-5">
-        <div className="experience_frontened">
-         
-          <div className="experience_content">
+      return (
+            <section id='experience'>
+                  <h5>What Skills I Have</h5>
+                  <h2>My Experience</h2>
+                  <div className='d-flex justify-content-center align-items-center experience_container mb-5'>
+                  <div className="experience_frontened">
+                              <h3>Devops Engineer</h3>
+                              <div className="experience_content">
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
               <div>
@@ -73,7 +72,7 @@ const Experience = () => {
                 <h4>Stata</h4>
                 
               </div>
-            </article>
+            </article>  
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
               <div>
@@ -82,10 +81,11 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
-      </div>
-        </section>
-  );
-};
+                        </div>
+                  </div>
 
-export default Experience;
+            </section>
+      )
+}
+
+export default Experience
