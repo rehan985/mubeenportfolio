@@ -32,7 +32,7 @@ const Portfolio = () => {
     {
       id:4,
       image:IMG4,
-      title:'Co-relation',
+      title:'Correlation',
 
     
     },
