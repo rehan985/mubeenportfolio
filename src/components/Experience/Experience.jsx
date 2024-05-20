@@ -8,7 +8,7 @@ const Experience = () => {
                   <h2>My Experience</h2>
                   <div className='d-flex justify-content-center align-items-center experience_container mb-5'>
                   <div className="experience_frontened">
-                              <h3>Devops Engineer</h3>
+                              <h3>Data Analyst</h3>
                               <div className="experience_content">
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icons" />
