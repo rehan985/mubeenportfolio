@@ -6,7 +6,7 @@ import IMG3 from '../../assets/pic3.png'
 import IMG4 from '../../assets/pic4.jpg'
 import IMG5 from '../../assets/pic5.jpg'
 import IMG6 from '../../assets/pic6.jpg'
-import IMG7 from '../../assets/pic6.jpg'
+import IMG7 from '../../assets/pic7.jpg'
 
 const Portfolio = () => {
   const data=[
