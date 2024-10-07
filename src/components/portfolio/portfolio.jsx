@@ -7,11 +7,14 @@ import IMG4 from '../../assets/pic4.jpg'
 import IMG5 from '../../assets/pic5.jpg'
 import IMG6 from '../../assets/pic6.jpg'
 import IMG7 from '../../assets/pic7.jpg'
+<<<<<<< HEAD
 import IMG8 from '../../assets/pic8.jpg'
 import IMG9 from '../../assets/pic9.jpg'
 import IMG10 from '../../assets/pic10.jpg'
 import IMG11 from '../../assets/pic11.jpg'
 
+=======
+>>>>>>> origin/master
 
 const Portfolio = () => {
   const data=[
@@ -59,6 +62,7 @@ const Portfolio = () => {
     {
       id:7,
       image:IMG7,
+<<<<<<< HEAD
       title:'Quantile plot'
      
      
@@ -88,6 +92,9 @@ const Portfolio = () => {
       id:11,
       image:IMG11,
       title:'choropleth map.'
+=======
+      title:'Dashboard '
+>>>>>>> origin/master
      
      
     }
