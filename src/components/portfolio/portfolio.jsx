@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id:1,
       image:IMG1,
-      title:'Trend Analysis '
+      title:'Trend Analysis ',
      
      
     },
@@ -58,35 +58,35 @@ const Portfolio = () => {
     {
       id:7,
       image:IMG7,
-      title:'Quantile plot'
+      title:'Quantile plot',
      
      
     },
     {
       id:8,
       image:IMG8,
-      title:'whisker plots'
+      title:'whisker plots',
      
      
     },
     {
       id:9,
       image:IMG9,
-      title:'Box and whisker chart'
+      title:'Box and whisker chart',
      
      
     },
     {
       id:10,
       image:IMG10,
-      title:'Structural Equation Model (SEM) diagram'
+      title:'Structural Equation Model (SEM) diagram',
      
      
     },
     {
       id:11,
       image:IMG11,
-      title:'choropleth map.'
+      title:'choropleth map.',
      
     
      
