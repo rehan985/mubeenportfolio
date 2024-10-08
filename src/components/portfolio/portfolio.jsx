@@ -87,7 +87,7 @@ const Portfolio = () => {
       id:11,
       image:IMG11,
       title:'choropleth map.'
-      title:'Dashboard '
+     
     
      
     }
